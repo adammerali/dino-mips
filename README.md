@@ -1,6 +1,8 @@
 # dino-mips
 
-Built this to practice Verilog and learn how MIPS processors work. Chrome dino game running on a single-cycle MIPS CPU — the CPU executes MIPS assembly that handles jumping, gravity, collision, and scoring. A testbench intercepts memory-mapped I/O and prints ASCII frames to the terminal. Simulation only, no FPGA required.
+Made this to practice Verilog and learn how MIPS processors work. 
+
+Chrome dino game running on a single cycle MIPS CPU. The CPU executes MIPS assembly that handles jumping, gravity, collision, and scoring. A testbench intercepts memory mapped I/O and prints ASCII frames to the terminal.
 
 ## Run
 
@@ -15,6 +17,6 @@ vvp sim/tb_game
 
 ## Future Improvements
 
-**Real FPGA board:** Replace the testbench with actual hardware I/O — VGA controller for a sprite-rendered display (640x480), debounced push-button for jump input, and a seven-segment display for score. Target board: Basys 3 or Nexys A7.
+**Real FPGA board:** Basys 3 or Nexys A7 boards.
 
-**Pipelined CPU:** Implement a 5-stage pipeline (IF / ID / EX / MEM / WB) with a hazard detection unit, data forwarding paths, and branch flush logic.
+**Pipelined CPU:** Implement a 5 stage pipeline (IF / ID / EX / MEM / WB) with a hazard detection unit, data forwarding paths, and branch flush logic. (somewhat implemented just needs tweaks).
