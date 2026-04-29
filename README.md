@@ -2,7 +2,7 @@
 
 Made this to practice Verilog and learn how MIPS processors work. 
 
-Chrome dino game running on a single cycle MIPS CPU. The CPU executes MIPS assembly that handles jumping, gravity, collision, and scoring. A testbench intercepts memory mapped I/O and prints ASCII frames to the terminal.
+Chrome dino game running on a single cycle MIPS CPU. The CPU executes MIPS assembly that handles jumping, gravity, collision, and scoring. testbench uses memory mapped I/O and prints ASCII frames to the terminal.
 
 ## CPU Architecture
 
